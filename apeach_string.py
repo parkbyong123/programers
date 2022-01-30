@@ -1,5 +1,5 @@
 def solution(s):
-    if len(s) == 1:
+    if len(s) == 1:     # if string size = 1
         return 1
     lens = int(len(s)/2)
     comp = []
